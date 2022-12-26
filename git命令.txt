@@ -1,0 +1,24 @@
+git init 			初始化
+git status	 		管理目录
+git add ***  			管理指定文件
+git add .  			管理所有文件
+git commit -m '***'  	追加版本
+git log			查看版本记录
+git reset --hard *** 	回滚版本   ***：commit序列号，版本号
+	    --soft		***：commit序列号，版本号 ,丛版本库回滚到暂存区
+
+	    --head		 ***：文件名，丛暂存区回滚到工作区
+	    --chechout ***    ***：文件名，回滚到文件改动前
+git reflog 查看回滚版本
+
+
+
+git config --glabal user.email "*****.com"
+git config --glabal user.name "*****"
+
+
+git branch *** 		创建分支，***：分支名称
+git checkout *** 		切换到分支，***：分支名称
+git merge ***		合并分支，***：分支名称
+git branch -d ***		删除分支，***：分支名称
+
